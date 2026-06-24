@@ -17,7 +17,7 @@ try:
     conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
     cursor = conn.cursor()
 
-    db_name = "iocr_pipeline_db"
+    db_name = "sioe_pipeline_db"
     
     print(f"Executing: CREATE DATABASE {db_name};")
     cursor.execute(f"CREATE DATABASE {db_name};")
